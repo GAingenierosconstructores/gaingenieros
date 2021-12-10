@@ -1,0 +1,268 @@
+body{
+	font-family: 'Oleo Script', cursive;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+  font-size: 30px;
+}
+
+li{
+	list-style: none;
+	margin-right: 30px;
+
+}
+
+.menu{
+	display:flex;
+	justify-content:flex-end;
+
+}
+
+ul{
+	display: flex;
+	list-style: none;
+	transition: all .6s;
+}
+
+ul:hover{
+	opacity: 1;
+	transform:translateY(0%); 
+}
+ul li a{
+	display: block;
+	padding: 20px 20px;
+	color: #252525;
+	text-decoration: none;
+	transition: all .6s;
+}
+ul li a:hover{
+	transform: translateY(10px);
+	opacity: 1;
+	color: white;
+
+}
+
+.titular{
+	text-align: center;
+	margin-top: 150px;
+	text-decoration: none;
+	transition: all .6s;
+}
+
+a{
+	background-color: #E88C17;
+	font-size: 15px;
+	color: white;
+	padding:12px 16px 12px 16px;
+	border-radius: 40px;
+	text-decoration: none;
+	transition: all .6s;
+}
+a:hover{
+	opacity: 1;
+	color: white;
+
+
+}
+header{
+	background: url(fondo1.png);
+	height: 150vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contenedor{
+	max-width: 1800px;
+	width: 90%
+	margin: auto;
+}
+
+body{
+	background: url(blanco.jpg);
+	height: 150vh;
+	background-size: cover;
+}
+
+/* desde aqui empieza la seccion sobre mi */
+
+h3{
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+	padding: 12px 16px 12px 16px
+}
+
+.contenedor-sobrenosotros{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.contenedor-mision{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contenedor-vision{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contenedor-valores{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.contenedor-parrafo-boton {
+	width: 55%
+}
+.contenedor-parrafo-boton p{
+	font size: 25px;
+}
+.contenedor-parrafo-boton p{
+	text-align: center;
+}
+
+.contenedor-parrafo-boton a{
+	margin-top: 15px;
+	display: inline-block;
+}
+
+/* desde aqui empieza la seccion servicio 	*/
+.contenedor-servicios{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.servicio{
+	width: 23%;
+	padding: 38px;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	color: #FCFCFE;
+}
+.anaranjado{
+	background: #FF9F33;
+}
+.amarillo{
+	background: #F1D235;
+}
+
+.servicio h4{
+	font-size: 30px;
+	margin: 0;
+}
+
+.servicio img{
+	float:right;
+}
+
+.servicio p{
+	font-size: 18px;
+}
+.contenedor-certificaciones{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+/*desde aqui empieza la seccion mis servicios */
+
+button.owl-prev, button.owl-next{
+	font-size: 40px!importante;
+}
+
+span{
+	color: #C1AB;
+}
+
+/*desde aqui empieza la seccion mis servicios */
+.contenedor-publicaciones{
+	display: flex;
+	justify-content: space-around;
+}
+
+.publicacion{
+	width: 30%;
+	box-shadow: 18px 12px 14px #ccc;
+}
+.certificados{
+	padding: 50px;
+	display: inline-block;
+	box-shadow: 20px 18px 18px 20px #ccc;
+
+}
+#blog img{
+	width: 100%;
+	
+}
+#blog{
+	padding-top: 50px;
+}
+
+#blog h4{
+	font-size: 22px;
+	margin: 0;
+	padding: 10px 10px 20px 10px;
+}
+#blog p{
+	color:#1E389D 
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+}
+#blog a{
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+/* Desde aqui empieza la seccion CONTACTO */
+#contacto{
+		background: linear-gradient(rgba(128,155,238,.94), rgba(46,77,171,.9));
+		text-align: center;
+		padding: 40px 0 50px 0;
+}
+
+#contacto a{
+		padding: 15px 45px 15px 45px;
+		}	
+
+#contacto a: hover{
+		color: black;
+		transition: 1s;
+		transform: rotate(360deg);
+		display: inline block;
+}	
+
+#contacto h3{
+		color: #fff;
+}	
+
+#wp a{
+	background: none;
+	position: fixed;
+	top:85%;
+	right: 15px;
+}	
+
+#volver a{
+	margin left: 15px;
+}
+
+
+@media (max-width: 480px) {
+/*se va aplicar cuando el MAXIMO DE ANCHO sea de 480px */
+
+
+
+
+}	
